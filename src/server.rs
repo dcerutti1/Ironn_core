@@ -307,3 +307,6 @@ pub async fn users_handler() -> ActixResult<HttpResponse> {
 pub fn test() {
     println!("test");
 }
+pub fn test2() {
+    println!("test 2 - ignore");
+}
