@@ -303,3 +303,6 @@ pub async fn users_handler() -> ActixResult<HttpResponse> {
         serde_json::json!({"id": 2, "name": "Bob"}),
     ]))
 }
+pub fn test() {
+    println!("test")
+}
