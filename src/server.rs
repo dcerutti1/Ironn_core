@@ -310,3 +310,6 @@ pub fn test() {
 pub fn test2() {
     println!("test 2 - ignore");
 }
+pub fn test3() {
+    println!("test3")
+}
